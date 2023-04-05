@@ -1,0 +1,19 @@
+{
+  "name": "bloqueo_imp",
+  "version": "1.0.0",
+  "description": "actualizar la tabla bloque al cliente desde SVD",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Esteban Quintero",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "ibm_db": "^2.8.2",
+    "pg": "^8.7.3",
+    "xlsx": "^0.18.5"
+  }
+}
