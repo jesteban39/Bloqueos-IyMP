@@ -6,13 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 // constantes para conectarse a las BD
-const configSVD = 
-    `DATABASE=${process.env.SVD_DATABASE};
-    HOSTNAME=${process.env.SVD_HOSTNAME};
-    UID=${process.env.SVD_UID};
-    PWD=${process.env.SVD_PWD};
-    PORT=${process.env.SVD_PORT};
-    PROTOCOL=TCPIP`;
+const configSVD =`DATABASE=${process.env.SVD_DATABASE};HOSTNAME=${process.env.SVD_HOSTNAME};UID=${process.env.SVD_UID};PWD=${process.env.SVD_PWD};PORT=${process.env.SVD_PORT};PROTOCOL=TCPIP`;
 
 const configIyMP = {
     user: process.env.IMP_USER,
