@@ -1,6 +1,6 @@
 const pg = require('pg');
-const ibmdb = require('ibm_db');
 const fs = require('fs');
+const ibmdb = require('ibm_db');
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -36,7 +36,7 @@ const querys = {
 // ingresar el limite de MEs que se desea actualizar en una ejecucion
 const main = async (limit, secons) => {
 
-    let current = JSON.parse(fs.readFileSync('current.json'));
+    let current = JSON.parse(fs.readFileSync('./current.json'));
 
     try {
         console.log('conectando a IyMP...');
